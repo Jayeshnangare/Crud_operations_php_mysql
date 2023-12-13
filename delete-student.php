@@ -14,8 +14,9 @@ if (isset($_GET['id'])) {
 //     if ($result == TRUE) {
 //        //echo "Record deleted successfully.";
            header('Location: create-student.php');
-//    }else{
-//        echo "Error:" . $sql . "<br>" . $conn->error;
-//    }
-}
+    }else{
+        echo "Error:" . $sql . "<br>" . $conn->error;
+   
+     }
+
 ?>

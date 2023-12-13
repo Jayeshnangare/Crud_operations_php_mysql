@@ -55,14 +55,12 @@ if (isset($_POST['update'])) {
           <input type="email" name="email" class="form-control" style="width: 400px" value="<?php echo $email; ?>">
           <input type="submit" name="update" value="update" class="btn btn-primary mt-3 mb-3 ">
               
-         
-
-
     </div>
-     
+  
    <div class="container-fluid">
      <h2>Student Details</h2>
 
+     
     <table class="table">
         <thead>
             <tr>
@@ -107,7 +105,6 @@ if (isset($_POST['update'])) {
         </body>
         </html>
         
-
     <?php
     }else{
         header('Location: create-student.php');

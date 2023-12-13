@@ -34,7 +34,7 @@ include "dbconfig.php";
         $email = $_POST['email'];
         $sql = "INSERT INTO `students`(`name`, `age`, `email`) VALUES ('$name','$age','$email')";
         $result = $conn->query($sql);
-        
+
         if ($result == true){
            // echo 'New record created successfully.';
 //             header('Location: view-student.php');
@@ -45,8 +45,7 @@ include "dbconfig.php";
         $conn->close();
         
  }
- ?>
-         
+ ?>        
     </form>
     </div>
     
@@ -72,8 +71,6 @@ include "dbconfig.php";
         if($result->num_rows > 0){
             while($row = $result->fetch_assoc()){
         ?>
-   
-    
 
     <tbody>
         

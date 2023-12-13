@@ -27,7 +27,6 @@ include "dbconfig.php";
         <th>Action</th>
         </tr>
     </thead>
-    
     <tbody>
         <?php
         $sql= "select * from students";
